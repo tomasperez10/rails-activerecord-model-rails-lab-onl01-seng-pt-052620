@@ -1,5 +1,5 @@
 class Student < ActiveRecord::Base
   def to_s
-    self.
+    self.first_name
   end
 end
